@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio No. 4</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="JS/script.js" defer></script>
+</head>
+<body>
+    <div id="General">
+        <nav>
+            <div id="Encabezado" class="nav-wrapper">
+                <a href="#" class="brand-logo">TAREA #4</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                </ul>
+            </div>
+        </nav>
+        <div id="Contenido">
+            <div id="Opciones">
+                <h4>OPCIONES</h4>
+                <div class="row">
+                    <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s1" id="divInferior">
+                        <i class="material-icons prefix">arrow_downward</i>
+                        <input id="limiteInferior" type="number" class="validate" min="1" max="100" class="validate">
+                        <label for="limiteInferior">Límite Inferior</label>
+                        </div>
+                    </div>
+                    <div class="row" id="Ocultar">
+                        <div class="input-field col s1" id="divSuperior">
+                        <i class="material-icons prefix">arrow_upward</i>
+                        <input id="limiteSuperior" type="number" class="validate" min="1" max="100" class="validate">
+                        <label for="limiteSuperior">Límite Superior</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s1" id="divSwitch">
+                            <div class="switch">
+                                <label>Mostrar una</label>
+                                <label>
+                                <input type="checkbox" id="Switch">
+                                <span class="lever"></span>
+                                </label>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s1" id="divBoton">
+                            <a class="waves-effect waves-light btn-large" onclick="Mostrar()">
+                                <i class="material-icons left">create</i>MOSTRAR
+                            </a>
+                        </div>
+                    </div>
+                    </form>
+                </div>          
+            </div>
+            <div id="divImagenes">
+                <h4>IMAGENES</h4>
+                <div id="Imagenes">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

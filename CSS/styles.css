@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+}
+
+#General {
+    display: flex; 
+    flex-direction: column; 
+    height: 100%; 
+    width: 100%;
+}
+
+#Encabezado {
+    background-color: #4884e4;
+}
+
+#Encabezado a {
+    margin-left: 20px;
+}
+
+#Contenido {
+    display: flex; 
+    flex-direction: row; 
+    height: 100%;  
+    justify-content: space-evenly; 
+    margin: 20px;
+}
+
+#Opciones {
+    border-style: solid; 
+    border-radius: 25px; 
+    height: 100%; 
+    width: 25%;
+}
+
+#Opciones h4 {
+    margin-left: 20px;
+}
+
+#divInferior {
+    width: 100%;
+}
+
+#divSuperior {
+    width: 100%;
+}
+
+#divSwitch {
+    width: 100%;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+}
+
+#divSwitch label {
+    font-size: 15px;
+}
+
+#divBoton {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+#divBoton a {
+    background-color: #989494; 
+    border-radius: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#divImagenes {
+    border-radius: 25px; 
+    border-style: solid; 
+    background-color: #f8f4f4; 
+    width: 70%; 
+    height: 100%; 
+    display: flex; 
+    flex-direction: column;
+}
+
+#divImagenes h4 {
+    margin-left: 20px;
+}
+
+#Imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#Imagenes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Imagenes img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
